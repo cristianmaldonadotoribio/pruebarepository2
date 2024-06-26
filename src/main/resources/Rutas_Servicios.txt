@@ -1,0 +1,28 @@
+Registrar un Servicio (POST)
+http://localhost:8092/api/servicios/registrar
+
+{
+    "nombre": "Servicio 6",
+    "descripcion": "Descripción del Servicio 6",
+    "costo": 600.0
+}
+
+Actualizar un Servicio (PUT)
+http://localhost:8092/api/servicios/actualizar
+{
+    "servicio_id": 6,
+    "nombre": "Servicio 6",
+    "descripcion": "Actualizo la Descripcion 6",
+    "costo": 600.0
+}
+
+Buscar un Servicio por Id (GET)
+http://localhost:8092/api/servicios/buscar/6
+
+Eliminar un Servicio por Id (DELETE)
+http://localhost:8092/api/servicios/eliminar/6
+
+(Bonus)
+Listar Servicios (GET)
+http://localhost:8092/api/servicios/listar
+
